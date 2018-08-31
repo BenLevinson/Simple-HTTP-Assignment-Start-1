@@ -1,0 +1,26 @@
+{
+  "name": "simple-http-assignment-start-1",
+  "version": "1.0.0",
+  "description": "Simple Http Assignment",
+  "main": "./src",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenLevinson/Simple-HTTP-Assignment-Start-1.git"
+  },
+  "author": "Ben Levinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenLevinson/Simple-HTTP-Assignment-Start-1/issues"
+  },
+  "homepage": "https://github.com/BenLevinson/Simple-HTTP-Assignment-Start-1#readme",
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
